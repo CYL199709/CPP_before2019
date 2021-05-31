@@ -1,0 +1,120 @@
+﻿生成启动时间为 2021/1/3 0:17:40。
+     1>项目“E:\咸鱼\C++\my-homework-3-master\C++图书管理系统\Project1\Project1\Project1.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Book.cpp Date.cpp main.cpp MD5.cpp Person.cpp
+         Person.cpp
+         MD5.cpp
+         main.cpp
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(25): error C2001: 常量中有换行符
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(26): error C2143: 语法错误 : 缺少“;”(在“for”的前面)
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(35): error C2001: 常量中有换行符
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(36): error C2143: 语法错误 : 缺少“;”(在“if”的前面)
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(42): error C2143: 语法错误 : 缺少“;”(在“:”的前面)
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(42): error C2001: 常量中有换行符
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(96): error C2001: 常量中有换行符
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(97): error C2146: 语法错误: 缺少“;”(在标识符“system”的前面)
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(128): error C2001: 常量中有换行符
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(129): error C2144: 语法错误:“char”的前面应有“;”
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(136): error C2001: 常量中有换行符
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(137): error C2146: 语法错误: 缺少“;”(在标识符“temp”的前面)
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(142): error C2001: 常量中有换行符
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(143): error C2143: 语法错误 : 缺少“;”(在“goto”的前面)
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(153): error C2146: 语法错误: 缺少“;”(在标识符“鐢ㄦ埛ID锛”的前面)
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(153): error C2065: “鐢ㄦ埛ID锛”: 未声明的标识符
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(158): error C2001: 常量中有换行符
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(159): error C2146: 语法错误: 缺少“;”(在标识符“cout”的前面)
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(159): error C2001: 常量中有换行符
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(160): error C2146: 语法错误: 缺少“;”(在标识符“cout”的前面)
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(160): error C2001: 常量中有换行符
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(161): error C2146: 语法错误: 缺少“;”(在标识符“cout”的前面)
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(161): error C2001: 常量中有换行符
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(162): error C2146: 语法错误: 缺少“;”(在标识符“cout”的前面)
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(162): error C2001: 常量中有换行符
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(163): error C2146: 语法错误: 缺少“;”(在标识符“cout”的前面)
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(164): error C2001: 常量中有换行符
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(165): error C2146: 语法错误: 缺少“;”(在标识符“cin”的前面)
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(171): error C2001: 常量中有换行符
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(172): error C2146: 语法错误: 缺少“;”(在标识符“system”的前面)
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(177): error C2001: 常量中有换行符
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(178): error C2144: 语法错误:“char”的前面应有“;”
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(181): error C2001: 常量中有换行符
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(182): error C2146: 语法错误: 缺少“;”(在标识符“system”的前面)
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(186): error C2001: 常量中有换行符
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(187): error C2146: 语法错误: 缺少“;”(在标识符“system”的前面)
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(194): error C2001: 常量中有换行符
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(195): error C2146: 语法错误: 缺少“;”(在标识符“cout”的前面)
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(195): error C2001: 常量中有换行符
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(196): error C2143: 语法错误 : 缺少“;”(在“if”的前面)
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(196): error C2001: 常量中有换行符
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(197): error C2143: 语法错误 : 缺少“;”(在“else”的前面)
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(197): error C2001: 常量中有换行符
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(198): error C2143: 语法错误 : 缺少“;”(在“else”的前面)
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(198): error C2001: 常量中有换行符
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(199): error C2146: 语法错误: 缺少“;”(在标识符“cout”的前面)
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(200): error C2001: 常量中有换行符
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(201): error C2146: 语法错误: 缺少“;”(在标识符“cout”的前面)
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(206): error C2001: 常量中有换行符
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(207): error C2143: 语法错误 : 缺少“;”(在“}”的前面)
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(208): error C2001: 常量中有换行符
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(209): error C2143: 语法错误 : 缺少“;”(在“}”的前面)
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(210): error C2001: 常量中有换行符
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(211): error C2146: 语法错误: 缺少“;”(在标识符“system”的前面)
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(225): error C2146: 语法错误: 缺少“;”(在标识符“鐢ㄦ埛ID锛”的前面)
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(225): error C2065: “鐢ㄦ埛ID锛”: 未声明的标识符
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(227): error C2001: 常量中有换行符
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(228): error C2146: 语法错误: 缺少“;”(在标识符“cout”的前面)
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(228): error C2001: 常量中有换行符
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(229): error C2146: 语法错误: 缺少“;”(在标识符“cout”的前面)
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(229): error C2001: 常量中有换行符
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(230): error C2146: 语法错误: 缺少“;”(在标识符“cout”的前面)
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(230): error C2001: 常量中有换行符
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(231): error C2146: 语法错误: 缺少“;”(在标识符“cout”的前面)
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(231): error C2001: 常量中有换行符
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(232): error C2146: 语法错误: 缺少“;”(在标识符“cout”的前面)
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(232): error C2001: 常量中有换行符
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(233): error C2146: 语法错误: 缺少“;”(在标识符“cout”的前面)
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(234): error C2001: 常量中有换行符
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(235): error C2146: 语法错误: 缺少“;”(在标识符“cin”的前面)
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(245): error C2001: 常量中有换行符
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(246): error C2146: 语法错误: 缺少“;”(在标识符“system”的前面)
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(250): error C2001: 常量中有换行符
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(251): error C2146: 语法错误: 缺少“;”(在标识符“getchar”的前面)
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(255): error C2146: 语法错误: 缺少“;”(在标识符“鈥濈殑鍥句功銆”的前面)
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(255): error C2065: “鈥濈殑鍥句功銆”: 未声明的标识符
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(255): error C2563: 在形参表中不匹配
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(255): error C2568: “<<”: 无法解析函数重载
+                 c:\program files (x86)\microsoft visual studio 2013\vc\include\ostream(997): 可能是“std::basic_ostream<_Elem,_Traits> &std::endl(std::basic_ostream<_Elem,_Traits> &)”
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(255): error C2001: 常量中有换行符
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(256): error C2143: 语法错误 : 缺少“;”(在“}”的前面)
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(259): error C2001: 常量中有换行符
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(260): error C2146: 语法错误: 缺少“;”(在标识符“cin”的前面)
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(264): error C2001: 常量中有换行符
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(265): error C2146: 语法错误: 缺少“;”(在标识符“system”的前面)
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(267): error C2001: 常量中有换行符
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(268): error C2143: 语法错误 : 缺少“;”(在“}”的前面)
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(272): error C2001: 常量中有换行符
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(273): error C2146: 语法错误: 缺少“;”(在标识符“getchar”的前面)
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(277): error C2146: 语法错误: 缺少“;”(在标识符“鈥濈殑鍥句功銆”的前面)
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(277): error C2065: “鈥濈殑鍥句功銆”: 未声明的标识符
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(277): error C2563: 在形参表中不匹配
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(277): error C2568: “<<”: 无法解析函数重载
+                 c:\program files (x86)\microsoft visual studio 2013\vc\include\ostream(997): 可能是“std::basic_ostream<_Elem,_Traits> &std::endl(std::basic_ostream<_Elem,_Traits> &)”
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(277): error C2001: 常量中有换行符
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(278): error C2143: 语法错误 : 缺少“;”(在“}”的前面)
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(281): error C2001: 常量中有换行符
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(282): error C2146: 语法错误: 缺少“;”(在标识符“cin”的前面)
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(285): error C2001: 常量中有换行符
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(286): error C2146: 语法错误: 缺少“;”(在标识符“cout”的前面)
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(286): error C2001: 常量中有换行符
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(287): error C2146: 语法错误: 缺少“;”(在标识符“cout”的前面)
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(287): error C2001: 常量中有换行符
+     1>e:\咸鱼\c++\my-homework-3-master\c++图书管理系统\project1\project1\main.cpp(287): fatal error C1003: 错误计数超过 100；正在停止编译
+         Date.cpp
+         Book.cpp
+         正在生成代码...
+     1>已完成生成项目“E:\咸鱼\C++\my-homework-3-master\C++图书管理系统\Project1\Project1\Project1.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:03.19

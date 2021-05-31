@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph DataVirtualized="True" GraphDirection="TopToBottom" Layout="Sugiyama" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="4-2：初等行变换，使矩阵A变为上三角矩阵" Category="Comment" Bounds="656.536349690755,16.3857967041016,314.230051269531,176.841770947266" Group="Expanded" Label="4-2：初等行变换，使矩阵A化为单位上三角矩阵U" UseManualLocation="True" />
+    <Node Id="4-3：再次调用将矩阵U化为单位阵I" Category="Comment" Bounds="698.195688392184,147.987473731311,207.75,25.24" Label="4-3：再次调用将矩阵U化为单位阵I" UseManualLocation="True" />
+    <Node Id="4682a961-e134-4d2f-8735-2443de33f4c21" Category="Comment" Bounds="447.272997394378,145.915932382308,159.263333333333,25.24" Label="4-1：求每列的主元及行号" UseManualLocation="True" />
+    <Node Id="@10" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="427.272992538967,105.915834448242,199.263338188744,85.2402" Group="Expanded" Label="max_post" SourceLocation="(Assembly=file:///c:/users/ihome.000/desktop/1/inva/inva/inva/main.cpp StartLineNumber=93 StartCharacterOffset=0 EndLineNumber=93 EndCharacterOffset=0)" UseManualLocation="True">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@11" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="832.459710417316,56.3858967066015,118.306666666667,57.2401999950001" Group="Expanded" Label="Change_Eij" SourceLocation="(Assembly=file:///c:/users/ihome.000/desktop/1/inva/inva/inva/main.cpp StartLineNumber=52 StartCharacterOffset=0 EndLineNumber=52 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@12" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="676.536325814451,56.3858967041015,125.923333333333,57.2402" Group="Expanded" Label="Change_EijK" SourceLocation="(Assembly=file:///c:/users/ihome.000/desktop/1/inva/inva/inva/main.cpp StartLineNumber=73 StartCharacterOffset=0 EndLineNumber=73 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@4" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="403.662071126302,-139.356371037305,64.4633333333334,25.24" Label="main" SourceLocation="(Assembly=file:///c:/users/ihome.000/desktop/1/inva/inva/inva/main.cpp StartLineNumber=198 StartCharacterOffset=0 EndLineNumber=198 EndCharacterOffset=0)" UseManualLocation="True">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@6" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="198.620303984652,114.867815039062,171.020440830882,84.4802970392969" Group="Expanded" Label="MatrixShow" SourceLocation="(Assembly=file:///c:/users/ihome.000/desktop/1/inva/inva/inva/main.cpp StartLineNumber=165 StartCharacterOffset=0 EndLineNumber=165 EndCharacterOffset=0)" UseManualLocation="True">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@7" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="194.553309246231,-99.2379872121778,143.843333333333,57.2402" Group="Expanded" Label="CreateMatrix_A" SourceLocation="(Assembly=file:///c:/users/ihome.000/desktop/1/inva/inva/inva/main.cpp StartLineNumber=18 StartCharacterOffset=0 EndLineNumber=18 EndCharacterOffset=0)" UseManualLocation="True">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@8" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="185.654651084144,7.354543962866,157.233333333333,57.2402" Group="Expanded" Label="CreateMatrix_one" SourceLocation="(Assembly=file:///c:/users/ihome.000/desktop/1/inva/inva/inva/main.cpp StartLineNumber=35 StartCharacterOffset=0 EndLineNumber=35 EndCharacterOffset=0)" UseManualLocation="True">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@9" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="407.272996419271,-82.6622180725097,583.493404541015,295.889885723877" Group="Expanded" Label="invMatrix" SourceLocation="(Assembly=file:///c:/users/ihome.000/desktop/1/inva/inva/inva/main.cpp StartLineNumber=149 StartCharacterOffset=0 EndLineNumber=149 EndCharacterOffset=0)" UseManualLocation="True">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="Ei(k)与Eij(K)" Category="Comment" Bounds="697.016325814451,82.3859967041015,84.9633333333331,25.24" Label="Ei(k)与Eij(K)" />
+    <Node Id="Eij" Category="Comment" Bounds="866.600677250649,82.3859967066015,50.024733,25.2399999950001" Label="Eij" />
+    <Node Id="第2步" Category="Comment" Bounds="202.752984417477,33.354643962866,123.036666666667,25.24" Label="第2步：创建单位阵" UseManualLocation="True" />
+    <Node Id="第3步：显示输入的矩阵" Category="Comment" Bounds="216.604019985216,140.867915039062,147.036666666667,25.24" Label="第3步：显示输入的矩阵" />
+    <Node Id="第4步：矩阵求逆的主体" Category="Comment" Bounds="459.145688437277,-42.6621109595987,147.036666666667,25.24" Label="第4步：矩阵求逆的主体" />
+    <Node Id="第5步：显示所求的逆矩阵" Category="Comment" Bounds="204.620303984652,168.108012091562,159.020440830882,25.2399999867969" Label="第5步：显示所求的逆矩阵" />
+    <Node Id="第一步" Category="Comment" Bounds="206.734975912898,-73.2378872121778,119.48,25.24" Label="第1步：输入矩阵A" />
+  </Nodes>
+  <Links>
+    <Link Source="4-2：初等行变换，使矩阵A变为上三角矩阵" Target="4-3：再次调用将矩阵U化为单位阵I" Category="Contains" />
+    <Link Source="4-2：初等行变换，使矩阵A变为上三角矩阵" Target="@11" Category="Contains" />
+    <Link Source="4-2：初等行变换，使矩阵A变为上三角矩阵" Target="@12" Category="Contains" Bounds="553.053526908628,185.588811496906,27.3571725444031,24.0568771810726" />
+    <Link Source="4-3：再次调用将矩阵U化为单位阵I" Target="4-2：初等行变换，使矩阵A变为上三角矩阵" Bounds="802.070678710938,173.226257324219,12.322265625,33.5013122558594" />
+    <Link Source="4682a961-e134-4d2f-8735-2443de33f4c21" Target="@10" Bounds="526.904663085938,171.15592956543,6.25189208984375,29.0001068115234" />
+    <Link Source="@10" Target="4682a961-e134-4d2f-8735-2443de33f4c21" Category="Contains" />
+    <Link Source="@11" Target="Eij" Category="Contains" />
+    <Link Source="@12" Target="Ei(k)与Eij(K)" Category="Contains" />
+    <Link Source="@4" Target="@6" Category="CallStackDirectCall" Bounds="325.579223632813,-114.116371154785,95.4404602050781,222.101486206055" />
+    <Link Source="@4" Target="@7" Category="CallStackDirectCall" Bounds="346.93605831283,-116.116705224321,56.8974672220087,18.8467883041227" />
+    <Link Source="@4" Target="@8" Category="CallStackDirectCall" Bounds="300.990160004198,-114.11637008667,121.592401814705,115.278778816482" />
+    <Link Source="@4" Target="@9" Category="CallStackDirectCall" Bounds="453.187068066504,-114.11637008667,35.8319742151801,26.1487814922257" />
+    <Link Source="@6" Target="第3步：显示输入的矩阵" Category="Contains" />
+    <Link Source="@6" Target="第5步：显示所求的逆矩阵" Category="Contains" />
+    <Link Source="@7" Target="第一步" Category="Contains" />
+    <Link Source="@8" Target="第2步" Category="Contains" />
+    <Link Source="@8" Target="第2步" Index="1" Bounds="264.271301269531,64.5947418212891,9,9" />
+    <Link Source="@9" Target="4-2：初等行变换，使矩阵A变为上三角矩阵" Category="Contains" />
+    <Link Source="@9" Target="@10" Category="CallStackDirectCall" Bounds="435.941263058171,311.335587394224,39.43651208654,15.7893275820916">
+      <Category Ref="Contains" />
+    </Link>
+    <Link Source="@9" Target="第4步：矩阵求逆的主体" Category="Contains" />
+    <Link Source="@9" Target="第5步：显示所求的逆矩阵" Bounds="338.574840877259,146.873205954776,68.3346925545879,18.8424618818213" />
+    <Link Source="Ei(k)与Eij(K)" Target="@12" Bounds="739.497985839844,107.624778747559,6.25189208984375,15.0013198852539" />
+    <Link Source="Eij" Target="@11" Bounds="891.613037109375,107.624778747559,6.25189208984375,15.0013198852539" />
+    <Link Source="第2步" Target="@8" Bounds="264.271301269531,58.5946464538574,6.25192260742188,15.0000953674316" />
+    <Link Source="第3步：显示输入的矩阵" Target="@6" Bounds="290.122344970703,105.867813110352,6.25192260742188,35.0001068115234" />
+    <Link Source="第4步：矩阵求逆的主体" Target="@9" Bounds="532.6640625,-91.6622161865234,6.25189208984375,49.0037498474121" />
+    <Link Source="第5步：显示所求的逆矩阵" Target="@6" Bounds="284.130523681641,193.348022460938,6.25192260742188,15.0000915527344" />
+    <Link Source="第一步" Target="@7" Bounds="266.474975585938,-47.9978904724121,6.25189208984375,15.0001029968262" />
+  </Links>
+  <Categories>
+    <Category Id="CallStackDirectCall" Label="调用堆栈直接调用" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="调用堆栈直接调用" OutgoingActionLabel="调用堆栈直接调用" />
+    <Category Id="CallStackEntry" Label="调用堆栈入口" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="调用堆栈入口" />
+    <Category Id="CodeSchema_CallStackUnresolvedMethod" Label="未解析的方法" CanBeDataDriven="True" DefaultAction="Microsoft.AllOutBoundLinks" IsProviderRoot="False" NavigationActionLabel="未解析的方法" />
+    <Category Id="CodeSchema_SourceLocation" Label="源位置" Icon="File" />
+    <Category Id="Comment" Label="注释" Description="表示在图表中用户定义的注释" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="注释" />
+    <Category Id="Contains" Label="包含" Description="链接的源是否包含目标对象" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="包含者" IsContainment="True" OutgoingActionLabel="包含" />
+  </Categories>
+  <Properties>
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="DataVirtualized" Label="已虚拟化数据" Description="如果为 true，则图中可以包含表示虚拟化节点/链接(即，不在图中实际创建)的数据的节点和链接。" DataType="System.Boolean" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="GraphDirection" DataType="Microsoft.VisualStudio.Diagrams.Layout.LayoutOrientation" />
+    <Property Id="Group" Label="组" Description="将节点显示为组" DataType="Microsoft.VisualStudio.GraphModel.GraphGroupStyle" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="Icon" Label="图标" Description="图标" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="IsProviderRoot" Label="IsProviderRoot" Description="IsProviderRoot" DataType="System.Boolean" />
+    <Property Id="Label" Label="标签" Description="可批注对象的可显示标签" DataType="System.String" />
+    <Property Id="Layout" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="SourceLocation" Label="起始行号" DataType="Microsoft.VisualStudio.GraphModel.CodeSchema.SourceLocation" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="UseManualLocation" DataType="System.Boolean" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+    <Property Id="Visibility" Label="Visibility" Description="Defines whether a node in the graph is visible or not" DataType="System.Windows.Visibility" />
+  </Properties>
+  <QualifiedNames>
+    <Name Id="Assembly" Label="程序集" ValueType="Uri" />
+    <Name Id="IsUnresolved" Label="是无法解析的" ValueType="System.String" />
+    <Name Id="Name" Label="名称" ValueType="System.String" />
+    <Name Id="OverloadingParameters" Label="参数" ValueType="Microsoft.VisualStudio.GraphModel.GraphNodeIdCollection" Formatter="NameValueNoEscape" />
+    <Name Id="Type" Label="类型" ValueType="System.Object" />
+  </QualifiedNames>
+  <IdentifierAliases>
+    <Alias n="1" Uri="Assembly=invA.exe" />
+    <Alias n="2" Id="Type=int" />
+    <Alias n="3" Id="IsUnresolved=True" />
+    <Alias n="4" Id="(Name=main @1 @2 @3)" />
+    <Alias n="5" Id="Type=&quot;double *&quot;" />
+    <Alias n="6" Id="(Name=MatrixShow @1 Type=void OverloadingParameters=[(@5 Name=Mat)] @3)" />
+    <Alias n="7" Id="(Name=CreateMatrix_A @1 @5 OverloadingParameters=[(@2 Name=N)] @3)" />
+    <Alias n="8" Id="(Name=CreateMatrix_one @1 @5 OverloadingParameters=[(@2 Name=N)] @3)" />
+    <Alias n="9" Id="(Name=invMatrix @1 Type=bool OverloadingParameters=[(@5 Name=Mat1),(@5 Name=Mat2)] @3)" />
+    <Alias n="10" Id="(Name=max_post @1 Type=bool OverloadingParameters=[(@5 Name=mat),(@2 Name=start),(@2 Name=length)] @3)" />
+    <Alias n="11" Id="(Name=Change_Eij @1 @2 OverloadingParameters=[(@5 Name=Mat),(@2 Name=ri),(@2 Name=rj)] @3)" />
+    <Alias n="12" Id="(Name=Change_EijK @1 @2 OverloadingParameters=[(@5 Name=Mat),(@2 Name=ri),(Type=double Name=k),(@2 Name=rj)] @3)" />
+  </IdentifierAliases>
+  <Styles>
+    <Style TargetType="Link" GroupLabel="Current Call Stack Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CurrentCallStackCall')" />
+      <Setter Property="Stroke" Value="#FFD93701" />
+      <Setter Property="Weight" Value="1" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Call Stack Indirect Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CallStackIndirectCall')" />
+      <Setter Property="Stroke" Value="#FFB8B8B8" />
+      <Setter Property="StrokeDashArray" Value="4 1" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Call Stack Direct Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CallStackDirectCall')" />
+      <Setter Property="Stroke" Value="#FFB8B8B8" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="External And Current" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('ExternalCallStackEntry') And HasCategory('CurrentCallStackEntry')" />
+      <Setter Property="Background" Value="#FFFFF8F0" />
+      <Setter Property="Stroke" Value="#FFCE5100" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="当前调用堆栈节点" ValueLabel="True">
+      <Condition Expression="HasCategory('CurrentCallStackEntry') And !HasCategory('QueryResult')" />
+      <Setter Property="Background" Value="#FFFFE3C6" />
+      <Setter Property="Stroke" Value="#FFD93701" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="外部调用堆栈入口" ValueLabel="True">
+      <Condition Expression="HasCategory('ExternalCallStackEntry')" />
+      <Setter Property="Background" Value="#FFF7F7F7" />
+      <Setter Property="StrokeDashArray" Value="1 3" />
+      <Setter Property="Foreground" Value="#FFA5A5A5" />
+      <Setter Property="Stroke" Value="#FFA5A5A5" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="结果" ValueLabel="True">
+      <Condition Expression="HasCategory('QueryResult')" />
+      <Setter Property="Background" Value="#FFBCFFBE" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="程序集" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Assembly')" />
+      <Setter Property="Background" Value="#FF094167" />
+      <Setter Property="Stroke" Value="#FF094167" />
+      <Setter Property="Icon" Value="CodeSchema_Assembly" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="命名空间" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Namespace')" />
+      <Setter Property="Background" Value="#FF0E619A" />
+      <Setter Property="Stroke" Value="#FF0E619A" />
+      <Setter Property="Icon" Value="CodeSchema_Namespace" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="接口" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Interface')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Interface" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="结构" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Struct')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Struct" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="枚举" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Enum')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Enum" />
+      <Setter Property="LayoutSettings" Value="List" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="委托" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Delegate')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Delegate" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="类" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Type')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Class" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="属性" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Property')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Property" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="方法" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Method') Or HasCategory('CodeSchema_CallStackUnresolvedMethod')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Method" />
+      <Setter Property="LayoutSettings" Value="List" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="事件" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Event')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Event" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="字段" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Field')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Field" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Out Parameter" ValueLabel="True">
+      <Condition Expression="CodeSchemaProperty_IsOut = 'True'" />
+      <Setter Property="Icon" Value="CodeSchema_OutParameter" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Parameter" ValueLabel="True">
+      <Condition Expression="HasCategory('CodeSchema_Parameter')" />
+      <Setter Property="Icon" Value="CodeSchema_Parameter" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Local Variable" ValueLabel="True">
+      <Condition Expression="HasCategory('CodeSchema_LocalExpression')" />
+      <Setter Property="Icon" Value="CodeSchema_LocalExpression" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="外部" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('Externals')" />
+      <Setter Property="Background" Value="#FF424242" />
+      <Setter Property="Stroke" Value="#FF424242" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Inherits From" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('InheritsFrom') And Target.HasCategory('CodeSchema_Class')" />
+      <Setter Property="TargetDecorator" Value="OpenArrow" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Implements" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('Implements') And Target.HasCategory('CodeSchema_Interface')" />
+      <Setter Property="TargetDecorator" Value="OpenArrow" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Field Read" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="Target.HasCategory('CodeSchema_Field') And HasCategory('CodeSchema_FieldRead')" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Comment Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="Source.HasCategory('Comment')" />
+      <Setter Property="Stroke" Value="#FFE5C365" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Cursor Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="IsCursorLocation" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Disabled Breakpoint Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="DisabledBreakpointCount" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Enabled Breakpoint Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="EnabledBreakpointCount" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Instruction Pointer Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="IsInstructionPointerLocation" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Current Callstack Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="IsCurrentCallstackFrame" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="注释" ValueLabel="包含注释">
+      <Condition Expression="HasCategory('Comment')" />
+      <Setter Property="Background" Value="#FFFFFACD" />
+      <Setter Property="Stroke" Value="#FFE5C365" />
+      <Setter Property="StrokeThickness" Value="1" />
+      <Setter Property="NodeRadius" Value="2" />
+      <Setter Property="MaxWidth" Value="250" />
+    </Style>
+  </Styles>
+</DirectedGraph>

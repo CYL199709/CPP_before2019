@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>The_result_guiClass</class>
+ <widget class="QMainWindow" name="The_result_guiClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>719</width>
+    <height>647</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string notr="true">运行窗口</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(:/new_image/C:/Users/14587/Desktop/完成/背景6.jpg);</string>
+  </property>
+  <property name="toolButtonStyle">
+   <enum>Qt::ToolButtonIconOnly</enum>
+  </property>
+  <property name="animated">
+   <bool>true</bool>
+  </property>
+  <property name="dockOptions">
+   <set>QMainWindow::AllowTabbedDocks|QMainWindow::AnimatedDocks</set>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>120</y>
+      <width>291</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:black;
+font: 9pt &quot;Agency FB&quot;;
+font: 75 18pt &quot;Agency FB&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Image Enhancement</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>270</y>
+      <width>291</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::StrongFocus</enum>
+    </property>
+    <property name="contextMenuPolicy">
+     <enum>Qt::CustomContextMenu</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:black;
+font: 75 18pt &quot;Agency FB&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Image Recognition</string>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>420</y>
+      <width>291</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:black;
+font: 75 18pt &quot;Agency FB&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Verification Code Identification</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>340</y>
+      <width>161</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:black;
+font: 75 18pt &quot;Agency FB&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Close Windows</string>
+    </property>
+    <property name="autoDefault">
+     <bool>false</bool>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="The_result_gui.qrc"/>
+  <include location="new_image.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>The_result_guiClass</receiver>
+   <slot>blur_image()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>170</x>
+     <y>102</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>421</x>
+     <y>78</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>The_result_guiClass</receiver>
+   <slot>find_image()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>182</x>
+     <y>211</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>362</x>
+     <y>157</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>The_result_guiClass</receiver>
+   <slot>find_digital()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>179</x>
+     <y>336</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>372</x>
+     <y>312</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_4</sender>
+   <signal>clicked()</signal>
+   <receiver>The_result_guiClass</receiver>
+   <slot>over()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>343</x>
+     <y>259</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>317</x>
+     <y>354</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>blur_image()</slot>
+  <slot>find_image()</slot>
+  <slot>find_digital()</slot>
+  <slot>over()</slot>
+ </slots>
+</ui>

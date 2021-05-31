@@ -1,0 +1,18 @@
+﻿// ATLProject1.idl: ATLProject1 的 IDL 源
+//
+
+// 此文件将由 MIDL 工具处理以
+// 生成类型库(ATLProject1.tlb)和封送处理代码。
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	uuid(c3b8c8e3-9cd5-4d32-be43-f5e6230a25f9),
+	version(1.0),
+]
+library ATLProject1Lib
+{
+	importlib("stdole2.tlb");
+};
+

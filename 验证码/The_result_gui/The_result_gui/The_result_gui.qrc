@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="新前缀"/>
+  <qresource prefix="new_image">
+    <file>C:/Users/14587/Desktop/完成/背景6.jpg</file>
+  </qresource>
+  <qresource prefix="新前缀"/>
+</RCC>

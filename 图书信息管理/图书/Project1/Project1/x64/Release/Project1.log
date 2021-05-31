@@ -1,0 +1,15 @@
+﻿生成启动时间为 2021/1/3 23:24:06。
+     1>项目“E:\咸鱼\C++\图书信息管理\图书\Project1\Project1\Project1.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 2013\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt main.cpp
+         main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 2013\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\咸鱼\C++\图书信息管理\图书\Project1\x64\Release\Project1.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\咸鱼\C++\图书信息管理\图书\Project1\x64\Release\Project1.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\咸鱼\C++\图书信息管理\图书\Project1\x64\Release\Project1.lib" /MACHINE:X64 x64\Release\main.obj
+         正在生成代码
+         已完成代码的生成
+         Project1.vcxproj -> E:\咸鱼\C++\图书信息管理\图书\Project1\x64\Release\Project1.exe
+     1>已完成生成项目“E:\咸鱼\C++\图书信息管理\图书\Project1\Project1\Project1.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.24
